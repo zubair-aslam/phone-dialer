@@ -17,7 +17,7 @@ const DialedCallPage = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       navigate("/call-log");
-    }, 1000);
+    }, 10000);
 
     return () => clearTimeout(timeoutId);
   }, [navigate]);
