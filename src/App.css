@@ -1,0 +1,21 @@
+.digit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    margin: 11px;
+    background-color: rgb(66, 64, 64);
+    border: 1px solid rgba(211, 211, 211, 1);;
+    border-radius: 50%;
+  }
+  
+.subdigit {
+    font-size: 0.625rem;
+    font-weight: 600;
+    height: 0.875rem;
+    color: white;
+  }
