@@ -25,14 +25,16 @@ const DialedCallPage = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="flex flex-col w-[320px] bg-black  h-[90%] rounded-lg">
+      <div className="flex flex-col justify-between w-[320px] bg-black  h-[90%] rounded-lg">
+        <div>
         <div className="flex justify-center content-between font-semibold text-white mt-4">
           <h4>Calling</h4>{" "}
         </div>
         <div className="flex justify-center font-semibold text-3xl text-white mt-2">
           {dialedNumber}
         </div>
-        <div className="flex flex-wrap justify-around text-white mt-[220px] mb-4">
+        </div>
+        <div className="flex flex-wrap justify-around text-white mb-4">
           <div className="digit">
             <RxSpeakerLoud />
           </div>
